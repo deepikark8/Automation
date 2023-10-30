@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T11:58:56 PDT" name="Parallel Test Suite" finished-at="2023-09-20T11:59:24 PDT" duration-ms="27328">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T11:58:56 PDT" name="Parallel Test" finished-at="2023-09-20T11:59:24 PDT" duration-ms="27328">
+      <class name="com.training.ParallelTest.ChromeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.ParallelTest.ChromeTest@7d4f9aae]" started-at="2023-09-20T11:58:56 PDT" name="setUp" finished-at="2023-09-20T11:59:09 PDT" duration-ms="12542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:1, instance:com.training.ParallelTest.ChromeTest@7d4f9aae]" started-at="2023-09-20T11:59:15 PDT" name="testTitle" finished-at="2023-09-20T11:59:15 PDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="clickOffers()[pri:2, instance:com.training.ParallelTest.ChromeTest@7d4f9aae]" started-at="2023-09-20T11:59:15 PDT" name="clickOffers" finished-at="2023-09-20T11:59:18 PDT" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOffers -->
+        <test-method signature="clickOrders()[pri:3, instance:com.training.ParallelTest.ChromeTest@7d4f9aae]" started-at="2023-09-20T11:59:18 PDT" name="clickOrders" finished-at="2023-09-20T11:59:23 PDT" duration-ms="4631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.ParallelTest.ChromeTest@7d4f9aae]" started-at="2023-09-20T11:59:23 PDT" name="tearDown" finished-at="2023-09-20T11:59:23 PDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.ParallelTest.ChromeTest -->
+      <class name="com.training.ParallelTest.FirefoxTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.ParallelTest.FirefoxTest@73e9cf30]" started-at="2023-09-20T11:59:09 PDT" name="setUp" finished-at="2023-09-20T11:59:15 PDT" duration-ms="6070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:1, instance:com.training.ParallelTest.FirefoxTest@73e9cf30]" started-at="2023-09-20T11:59:15 PDT" name="testTitle" finished-at="2023-09-20T11:59:15 PDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="clickOffers()[pri:2, instance:com.training.ParallelTest.FirefoxTest@73e9cf30]" started-at="2023-09-20T11:59:15 PDT" name="clickOffers" finished-at="2023-09-20T11:59:19 PDT" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOffers -->
+        <test-method signature="clickOrders()[pri:3, instance:com.training.ParallelTest.FirefoxTest@73e9cf30]" started-at="2023-09-20T11:59:19 PDT" name="clickOrders" finished-at="2023-09-20T11:59:21 PDT" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.ParallelTest.FirefoxTest@73e9cf30]" started-at="2023-09-20T11:59:23 PDT" name="tearDown" finished-at="2023-09-20T11:59:24 PDT" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.ParallelTest.FirefoxTest -->
+    </test> <!-- Parallel Test -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>

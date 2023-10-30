@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-20T10:01:06 PDT" name="Default suite" finished-at="2023-10-20T10:02:16 PDT" duration-ms="70017">
+    <groups>
+    </groups>
+    <test started-at="2023-10-20T10:01:06 PDT" name="Default test" finished-at="2023-10-20T10:02:16 PDT" duration-ms="70017">
+      <class name="DataproviderwithExcel">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:DataproviderwithExcel@534a5a98]" started-at="2023-10-20T10:01:07 PDT" name="launchApplication" finished-at="2023-10-20T10:02:14 PDT" duration-ms="67175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:DataproviderwithExcel@534a5a98]" started-at="2023-10-20T10:02:14 PDT" name="login" data-provider="SearchFromExcel" finished-at="2023-10-20T10:02:16 PDT" duration-ms="2035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- DataproviderwithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

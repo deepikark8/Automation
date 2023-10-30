@@ -1,0 +1,24 @@
+
+docker --version
+
+The below table shows all the pull commands that you need to type into the Quickstart terminal and install.
+
+Image	Command
+Selenium hub	docker pull selenium/hub
+Selenium firefox node	docker pull selenium/node-firefox
+Selenium chrome node	docker pull selenium/node-chrome
+Selenium firefox debug	docker pull selenium/node-firefox-debug
+Selenium chrome debug	docker pull selenium/node-chrome-debug
+
+docker images
+
+
+
+docker run -d -p 4444:4444 –name selenium-hub selenium/hub ---> To start Selenium hub from Docker container
+
+
+
+Ref links:
+
+https://www.youtube.com/watch?v=MaA6n7qBX8M&list=PLFh6J1ZHhqNiDLdTBQov509Zwdd-iK6WZ
+

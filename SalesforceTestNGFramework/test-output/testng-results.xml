@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-13T19:24:26 PDT" name="Failed suite [Default suite]" finished-at="2023-04-13T19:24:26 PDT" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2023-04-13T19:24:26 PDT" name="Default test(failed)" finished-at="2023-04-13T19:24:26 PDT" duration-ms="37">
+      <class name="com.salesforce.testcases.RandomScenariosTest">
+        <test-method signature="TC37(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.testcases.RandomScenariosTest@49b0b76]" started-at="2023-04-13T19:24:26 PDT" name="TC37" finished-at="2023-04-13T19:24:26 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method TC37 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method TC37 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC37 -->
+        <test-method signature="TC33(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.testcases.RandomScenariosTest@49b0b76]" started-at="2023-04-13T19:24:26 PDT" name="TC33" finished-at="2023-04-13T19:24:26 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method TC33 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method TC33 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC33 -->
+        <test-method signature="TC36(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.testcases.RandomScenariosTest@49b0b76]" started-at="2023-04-13T19:24:26 PDT" name="TC36" finished-at="2023-04-13T19:24:26 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method TC36 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method TC36 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC36 -->
+        <test-method signature="TC35(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.testcases.RandomScenariosTest@49b0b76]" started-at="2023-04-13T19:24:26 PDT" name="TC35" finished-at="2023-04-13T19:24:26 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method TC35 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method TC35 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC35 -->
+        <test-method signature="TC34(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.testcases.RandomScenariosTest@49b0b76]" started-at="2023-04-13T19:24:26 PDT" name="TC34" finished-at="2023-04-13T19:24:26 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method TC34 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method TC34 but has not been marked @Optional or defined
+in /Users/rahade/eclipse-workspace4/SalesforceTestNGFramework/test-output/Default suite/testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC34 -->
+      </class> <!-- com.salesforce.testcases.RandomScenariosTest -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
